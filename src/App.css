@@ -1,0 +1,52 @@
+/* src/App.css */
+
+.app-container {
+  display: flex;
+  flex-direction: column; /* Change to column to stack elements vertically */
+  align-items: center; /* Center the elements horizontally */
+  justify-content: space-between; /* Space evenly between the elements */
+  height: 100vh;
+}
+
+.map-and-panels {
+  display: flex;
+}
+
+.map-container {
+  flex: 1; /* Occupy all available space */
+  margin-right: 10px; /* Add right margin for spacing between the map and panels */
+}
+
+.panels {
+  display: flex;
+  flex-direction: row; /* Stack panels horizontally */
+}
+
+.panel, .pane2 {
+  width: 15%; /* Set a smaller width for both panels */
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(180, 5, 5, 0.1);
+}
+
+
+.map {
+  width: 100%; /* Adjust the map width as needed */
+  height: 500px; /* Use a fixed height to prevent resizing */
+}
+
+.centered-image {
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+  height: auto;
+}
+
+.centered-button {
+  display: block;
+  margin-top: 10px;
+  padding: 10px;
+  background-color: #4caf50;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
